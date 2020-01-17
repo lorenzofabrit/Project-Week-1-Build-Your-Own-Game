@@ -29,11 +29,11 @@ Tic Tac Toe is played by 2 players. The players take turns at marking a 3x3 grid
 - Set the condition so that the game ends if one of the players reaches a winning combination or if the array is full and the game is a tie.
 
 ## Organization
+
 See workflow
 
 ## Links
-Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
 
-[Repository](https://github.com/)  
+[Repository](https://github.com/lorenzofabrit/Project-Week-1-Build-Your-Own-Game)  
 [Slides](https://docs.google.com/presentation/d/1fz4qVS-YYTY9lAx04tHxeOt8439PYYBiQpDHGx6xmQk/edit#slide=id.g47b0d096c6_0_53)  
  
