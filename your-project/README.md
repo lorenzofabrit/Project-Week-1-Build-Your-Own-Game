@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
-*[Your Name]*
+# Tic Tac Toe Mania
+*Lorenzo Fabritius*
 
-*[Your Cohort, Campus & Date]*
+*Data Analytics, Barcelona, 17.01.2020*
 
 ## Content
 - [Project Description](#project-description)
@@ -13,22 +13,27 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about the game you chose to build and why.
+I chose to build the game Tic Tac Toe (slightly altered), as it is a widely known game played by people of all ages.
 
 ## Rules
-Briefly describe the rules of the game.
+Tic Tac Toe is played by 2 players. The players take turns at marking a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+- Define the 3x3 board and visualise it
+- Define the player move and visualise it on the board
+    - Challenge: I was not able to alter the board after the player move to include the move. I solved this by using a numpy   array and a dictionary. However, as you cannot add letters to an array of integers, I had to adapt and instead of Xs and Os decided to implement recognizable integers "19" and "84".
+- Define the cpu move.
+- Define winning combinations
+    - This was a challenge, as I had to define the winning combinations through a list of tuples referencing a dictionary, referencing an array of 3 rows.
+ 
+- Set the condition so that the game ends if one of the players reaches a winning combination or if the array is full and the game is a tie.
 
 ## Organization
-How did you organize your work? Did you use any tools like a kanban board?
-
-What does your repository look like? Explain your folder and file structure.
+See workflow
 
 ## Links
 Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
 
 [Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Slides](https://docs.google.com/presentation/d/1fz4qVS-YYTY9lAx04tHxeOt8439PYYBiQpDHGx6xmQk/edit#slide=id.g47b0d096c6_0_53)  
+ 
